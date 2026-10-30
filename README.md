@@ -26,6 +26,6 @@
 ```bash
 dotnet test SpreadsheetEngine.Tests
 cd SpreadsheetApp
-dotnet build -t:Run -f net10.0-maccatalyst
+dotnet build -t:Run -f net10.0-windows10.0.19041.0
 ```
-На Windows: `dotnet build -t:Run -f net10.0-windows10.0.19041.0` або F5 у Visual Studio.
+На Mac: `dotnet build -t:Run -f net10.0-maccatalyst` або F5 у Visual Studio.
